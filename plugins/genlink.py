@@ -67,7 +67,7 @@ async def gen_link_s(bot, message):
     user_id = message.from_user.id
     user = await get_user(user_id)
     if WEBSITE_URL_MODE == True:
-        share_link = f"{WEBWEBSITE_URHindi_Tv_Verse={outstr}"
+        share_link = f"{WEBWEBSITE_UR?Hindi_Tv_Verse={outstr}"
     else:
         share_link = f"https://t.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
@@ -168,7 +168,7 @@ async def gen_link_batch(bot, message):
     user_id = message.from_user.id
     user = await get_user(user_id)
     if WEBSITE_URL_MODE == True:
-        share_link = f"{WEBSITE_URLUsHindi_Tv_Verse=BATCH-{file_id}"
+        share_link = f"{WEBSITE_URLUs?Hindi_Tv_Verse=BATCH-{file_id}"
     else:
         share_link = f"https://t.me/{username}?start=BATCH-{file_id}"
     if user["base_site"] and user["shortener_api"] != None:
@@ -180,5 +180,6 @@ async def gen_link_batch(bot, message):
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
